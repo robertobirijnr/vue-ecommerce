@@ -6,57 +6,17 @@
       </div>
     </div>
     <div class="row">
-      <div class="item col-3">
+      <div
+        v-for="product in productitem"
+        v-bind:data="product"
+        v-bind:key="product.name"
+        class="item col-3"
+      >
         <div class="card" style="width: 18rem;">
-          <img
-            src="../assets/ipad-pro.jpg"
-            class="card-img-top"
-            width="300px"
-            height="200px"
-            alt="..."
-          />
+          <img :src="product.imgPath" class="card-img-top" width="300px" height="200px" alt="..." />
           <div class="card-body">
-            <p class="product-name">Goody Speaker</p>
-            <p class="price">Ghs 2000.00</p>
-          </div>
-        </div>
-      </div>
-      <div class="item col-3">
-        <div class="card" style="width: 18rem;">
-          <img
-            src="../assets/earphone.jpg"
-            class="card-img-top"
-            width="300px"
-            height="200px"
-            alt="..."
-          />
-          <div class="card-body">
-            <p class="product-name">Goody Speaker</p>
-            <p class="price">Ghs 2000.00</p>
-          </div>
-        </div>
-      </div>
-      <div class="item col-3">
-        <div class="card" style="width: 18rem;">
-          <img src="../assets/ipad.jpg" width="300px" height="200px" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <p class="product-name">Goody Speaker</p>
-            <p class="price">Ghs 2000.00</p>
-          </div>
-        </div>
-      </div>
-      <div class="item col-3">
-        <div class="card" style="width: 18rem;">
-          <img
-            src="../assets/ipad-max.jpg"
-            width="300px"
-            height="200px"
-            class="card-img-top"
-            alt="..."
-          />
-          <div class="card-body">
-            <p class="product-name">Goody Speaker</p>
-            <p class="price">Ghs 2000.00</p>
+            <p class="product-name">{{product.name}}</p>
+            <p class="price">{{product.price}}</p>
           </div>
         </div>
       </div>
@@ -65,7 +25,54 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data: function() {
+    return {
+      productitem: [
+        {
+          name: "Galaxy X5",
+          price: "Ghs 8000.00",
+          imgPath: require("@/assets/ipad-pro.jpg")
+        },
+        {
+          name: "Ipad MaxS",
+          price: "Ghs 8000.00",
+          imgPath: require("@/assets/ipad-max.jpg")
+        },
+        {
+          name: "Ipad MaxV",
+          price: "Ghs 8000.00",
+          imgPath: require("@/assets/earphone.jpg")
+        },
+        {
+          name: "Laptop",
+          price: "Ghs 8000.00",
+          imgPath: require("@/assets/ipad.jpg")
+        },
+        {
+          name: "Galaxy X5",
+          price: "Ghs 8000.00",
+          imgPath: require("@/assets/ipad-pro.jpg")
+        },
+        {
+          name: "Ipad MaxS",
+          price: "Ghs 8000.00",
+          imgPath: require("@/assets/ipad-max.jpg")
+        },
+        {
+          name: "Ipad MaxV",
+          price: "Ghs 8000.00",
+          imgPath: require("@/assets/earphone.jpg")
+        },
+        {
+          name: "Laptop",
+          price: "Ghs 8000.00",
+          imgPath: require("@/assets/ipad.jpg")
+        }
+      ]
+    };
+  }
+};
 </script>
 
 <style scoped>
