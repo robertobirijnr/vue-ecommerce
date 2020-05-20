@@ -19,18 +19,18 @@
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
             <a class="nav-link" href="#">
-              PROMOS
+              HOME
               <span class="sr-only">(current)</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">CATEGORIES</a>
+            <a class="nav-link" href="#">SHOP</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">MERCHANTS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">MY CART</a>
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">MY ACCOUNT</a>
           </li>
         </ul>
       </div>
