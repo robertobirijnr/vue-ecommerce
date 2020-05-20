@@ -1,8 +1,8 @@
 <template>
-  <div class="container">
-    <nav class="mynvabar navbar navbar-expand-lg navbar-light">
+  <div class="mynvabar container">
+    <nav class="navbar navbar-expand-lg navbar-light">
       <a class="navbar-brand" href="#">
-        <span class="o-color">Shop pye</span>
+        <span class="o-color">Shoppye</span>
       </a>
       <button
         class="navbar-toggler"

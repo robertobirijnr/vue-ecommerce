@@ -1,13 +1,18 @@
 <template>
-  <Navbar></Navbar>
+  <div>
+    <Navbar></Navbar>
+    <Jumbo></Jumbo>
+  </div>
 </template>
 
 <script>
 import Navbar from "../components/Navbar";
+import Jumbo from "../components/jumboImage";
 export default {
   name: "Vue-Ecommerce",
   components: {
-    Navbar
+    Navbar,
+    Jumbo
   }
 };
 </script>
