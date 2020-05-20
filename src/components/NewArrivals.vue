@@ -7,24 +7,58 @@
     </div>
     <div class="row">
       <div class="item col-3">
-        <img src="../assets/ipad-pro.jpg" width="300px" height="200px" alt />
-        <p class="product-name">Goody Speaker</p>
-        <p class="price">Ghs 2000.00</p>
+        <div class="card" style="width: 18rem;">
+          <img
+            src="../assets/ipad-pro.jpg"
+            class="card-img-top"
+            width="300px"
+            height="200px"
+            alt="..."
+          />
+          <div class="card-body">
+            <p class="product-name">Goody Speaker</p>
+            <p class="price">Ghs 2000.00</p>
+          </div>
+        </div>
       </div>
       <div class="item col-3">
-        <img src="../assets/earphone.jpg" width="300px" height="200px" alt />
-        <p class="product-name">Goody Speaker</p>
-        <p class="price">Ghs 2000.00</p>
+        <div class="card" style="width: 18rem;">
+          <img
+            src="../assets/earphone.jpg"
+            class="card-img-top"
+            width="300px"
+            height="200px"
+            alt="..."
+          />
+          <div class="card-body">
+            <p class="product-name">Goody Speaker</p>
+            <p class="price">Ghs 2000.00</p>
+          </div>
+        </div>
       </div>
       <div class="item col-3">
-        <img src="../assets/ipad.jpg" width="300px" height="200px" alt />
-        <p class="product-name">Goody Speaker</p>
-        <p class="price">Ghs 2000.00</p>
+        <div class="card" style="width: 18rem;">
+          <img src="../assets/ipad.jpg" width="300px" height="200px" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="product-name">Goody Speaker</p>
+            <p class="price">Ghs 2000.00</p>
+          </div>
+        </div>
       </div>
       <div class="item col-3">
-        <img src="../assets/ipad-max.jpg" width="300px" height="200px" alt />
-        <p class="product-name">Goody Speaker</p>
-        <p class="price">Ghs 2000.00</p>
+        <div class="card" style="width: 18rem;">
+          <img
+            src="../assets/ipad-max.jpg"
+            width="300px"
+            height="200px"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <p class="product-name">Goody Speaker</p>
+            <p class="price">Ghs 2000.00</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
