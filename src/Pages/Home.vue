@@ -3,6 +3,7 @@
     <Navbar></Navbar>
     <Jumbo></Jumbo>
     <NewArrivals></NewArrivals>
+    <Footer></Footer>
   </div>
 </template>
 
@@ -10,12 +11,14 @@
 import Navbar from "../components/Navbar";
 import Jumbo from "../components/jumboImage";
 import NewArrivals from "../components/NewArrivals";
+import Footer from "../components/Footer";
 export default {
   name: "Vue-Ecommerce",
   components: {
     Navbar,
     Jumbo,
-    NewArrivals
+    NewArrivals,
+    Footer
   }
 };
 </script>
